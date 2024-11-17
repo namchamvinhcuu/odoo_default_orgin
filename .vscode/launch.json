@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Odoo - 15.0.0",
+      "type": "debugpy",
+      "request": "launch",
+      "justMyCode": false,
+      "stopOnEntry": false,
+      "logToFile": false,
+      "python": "/home/namchamvinhcuu/workspace/odoo15/odoo15-venv/bin/python3.12",
+      "program": "/home/namchamvinhcuu/workspace/odoo15/odoo/odoo-bin",
+      "console": "integratedTerminal",
+      "args": [
+        "--config=${workspaceFolder}/odoo.conf",
+        "--dev=xml",
+        "--addons-path=${workspaceFolder}/addons,/home/namchamvinhcuu/workspace/odoo15/odoo/addons,/home/namchamvinhcuu/workspace/odoo15/base-modules-v15,/home/namchamvinhcuu/workspace/odoo15/custom-modules-v15"
+        // "--update=autonsi_wms_inah"
+      ],
+      "env": {},
+      "cwd": "${workspaceRoot}"
+    }
+  ]
+}
